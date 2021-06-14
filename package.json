@@ -1,6 +1,9 @@
 {
     "name": "next-portfolio",
     "version": "1.0.0",
+    "engines": {
+        "node": "14.x"
+    },
     "scripts": {
         "dev": "next",
         "build": "next build",
@@ -13,7 +16,7 @@
         "@types/react-syntax-highlighter": "^13.5.0",
         "emailjs-com": "^2.6.3",
         "gray-matter": "^4.0.2",
-        "next": "^9.4.0",
+        "next": "^10.2.3",
         "nprogress": "^0.2.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
