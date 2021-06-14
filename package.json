@@ -5,7 +5,7 @@
         "dev": "next",
         "build": "next build",
         "export": "next export",
-        "start": "next start",
+        "start": "next start -p $PORT",
         "type-check": "tsc"
     },
     "dependencies": {
