@@ -6,7 +6,6 @@ import Footer from "./Footer";
 import HorizontalCard from "./HorizontalCard";
 import Menu from "./Menu";
 import SkillCard from "./SkillCard";
-import Testimonial from "./Testimonial";
 
 export {
     CodeBlock,
@@ -16,6 +15,5 @@ export {
     Footer,
     HorizontalCard,
     Menu,
-    SkillCard,
-    Testimonial
+    SkillCard
 };

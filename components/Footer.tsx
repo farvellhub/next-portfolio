@@ -1,5 +1,12 @@
 import React from "react";
-import { SiReact, SiTailwindcss, SiNextDotJs, SiTypescript } from "react-icons/si";
+
+import {
+    SiReact,
+    SiTailwindcss,
+    SiNextDotJs,
+    SiTypescript
+} from "react-icons/si";
+
 import { BsLightningFill } from "react-icons/bs";
 
 const Footer = (): JSX.Element => {

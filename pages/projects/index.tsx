@@ -7,7 +7,8 @@ import {
     FaNodeJs,
     FaHtml5,
     FaCss3Alt,
-    FaTrophy
+    FaTrophy,
+    FaVuejs
 } from "react-icons/fa";
 
 import {
@@ -15,10 +16,9 @@ import {
     SiTailwindcss,
     SiNextDotJs,
     SiJavascript,
-    SiMongodb,
-    SiFirebase,
-    SiAdobephotoshop,
     SiTypescript,
+    SiWebgl,
+    SiVuetify
 } from "react-icons/si";
 
 import { IoIosTime } from "react-icons/io";
@@ -37,11 +37,11 @@ const Projects = (): JSX.Element => {
     const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
     const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
     const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
-    const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
-    const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
-    const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
     const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
     const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
+    const WebGlIcon = <SiWebgl className="text-3xl text-black" />;
+    const VueJslIcon = <FaVuejs className="text-3xl text-vuejs" />;
+    const VuetifylIcon = <SiVuetify className="text-3xl text-css" />;
 
     const projects = [
         {
@@ -67,7 +67,7 @@ const Projects = (): JSX.Element => {
             imgSrc: "https://emanuallan.github.io/img/purple-pundit.jpg",
             info:
                 "React web application that seperates the latest news articles according to their liberal & conservative bias using the NewsAPI and Media Bias Fact Checker.",
-            icons: [ ReactIcon, NodeIcon, PhotoshopIcon ],
+            icons: [ ReactIcon, NodeIcon ],
             code: "https://github.com/emanuallan/WTLT",
             demo: "https://purplepundit.appspot.com/",
         },
@@ -136,7 +136,6 @@ const Projects = (): JSX.Element => {
             demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
         }
     ];
-
     return (
         <div className="text-whippy flex flex-col items-center">
             <GitHubCalendar
@@ -159,23 +158,21 @@ const Projects = (): JSX.Element => {
             </div>
             <div className=" w-full grid  grid-cols-1 gap-10 mt-10">
                 <FeaturedProjectCard
-                    imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
-                    title={"Scholars"}
+                    imgSrc="https://i.imgur.com/erjOZTD.png"
+                    title={"Discord-Safe Bot"}
                     info={
-                        "Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
+                        "D-Safe is a discord bot created for online security, anti-spam and moderation purposes."
                     }
-                    icons={[ ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon ]}
+                    icons={[ NextJsIcon, ReactIcon, ReduxIcon, TailwindIcon ]}
                     color="#08415C"
-                    logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
-                    handle="scholars"
+                    logoUrl="https://d33wubrfki0l68.cloudfront.net/747415793f4f58c0e000453dc0d08d250eaaa9d7/e68f2/assets/svg/logo.svg"
                 />
                 <FeaturedProjectCard
                     imgSrc="https://tallysight.com/widget.png"
                     title={"TallySight"}
                     info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
-                    icons={[ ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon ]}
+                    icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
                     color="#29AAE1"
-                    handle="tallysight"
                     logoUrl="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io"
                 />
             </div>

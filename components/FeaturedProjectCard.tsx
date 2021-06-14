@@ -7,8 +7,6 @@ interface FeaturedProjectCardProps {
     imgSrc: string;
     icons: JSX.Element[];
     color: string;
-    handle?: string;
-    site: string;
     logoUrl: string;
 }
 
@@ -18,9 +16,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
     imgSrc,
     icons,
     color,
-    handle,
-    logoUrl,
-    site,
+    logoUrl
 }: FeaturedProjectCardProps ): JSX.Element => {
     return (
         <div className="w-full">
@@ -39,7 +35,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
                                 >
                                     <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17pv-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                                 </svg>
-                                Start-Up
+                                Collaborative Work
                             </p>
                             <h2 className="font-bold text-2xl  tracking-wider" style={{ color: color }}>
                                 {title}
@@ -65,15 +61,9 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
                                 <a href="#">By Mohammed Ibrahim</a> <span className="text-gray-600">21 SEP 2015.</span>
                             </h2> */}
                         <div>
-                            {handle ? (
-                                <a className="text-blue-500 text-sm" href={`/projects/${handle}`}>
-                                    View My Work
-                                </a>
-                            ) : (
-                                <a className="text-blue-500 text-sm" href={site} target="_blank" rel="noreferrer">
-                                    Visit Site
-                                </a>
-                            )}
+                            <a className="text-blue-500 text-sm" href="">
+                                Visit Website
+                            </a>
                         </div>
                     </div>
 

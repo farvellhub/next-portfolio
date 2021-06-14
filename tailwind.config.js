@@ -16,11 +16,12 @@ module.exports = {
                 firebase: "#F7C52E",
                 javascript: "#F1D43B",
                 typescript: "#007ACC",
+                vuejs: "#42b883",
+                sass: "#CD6799",
                 html: "#E9642A",
                 css: "#0068BA",
                 mongo: "#66AC3D",
-                background: "#F9FAFB",
-                tallysight: "#29AAE1",
+                background: "#F9FAFB"
             },
             screens: {
                 xs: "320px",
