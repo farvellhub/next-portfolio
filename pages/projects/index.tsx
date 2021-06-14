@@ -6,9 +6,10 @@ import {
     FaReact,
     FaNodeJs,
     FaHtml5,
-    FaCss3Alt,
+    FaNpm,
     FaTrophy,
-    FaVuejs
+    FaVuejs,
+    FaSass
 } from "react-icons/fa";
 
 import {
@@ -18,7 +19,9 @@ import {
     SiJavascript,
     SiTypescript,
     SiWebgl,
-    SiVuetify
+    SiVuetify,
+    SiWebpack,
+    SiHeroku
 } from "react-icons/si";
 
 import { IoIosTime } from "react-icons/io";
@@ -30,7 +33,7 @@ import {
 
 //border-b-2 border-yikyak
 const Projects = (): JSX.Element => {
-    const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
+    const Webpack = <SiWebpack className="text-4xl text-tailwind" />;
     const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
     const ReactIcon = <FaReact className="text-4xl text-react" />;
     const NodeIcon = <FaNodeJs className="text-4xl text-node" />;
@@ -38,84 +41,50 @@ const Projects = (): JSX.Element => {
     const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
     const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
     const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
-    const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
+    const TypescriptIcon = <SiTypescript className="text-3xl text-typescript" />;
     const WebGlIcon = <SiWebgl className="text-3xl text-black" />;
     const VueJslIcon = <FaVuejs className="text-3xl text-vuejs" />;
     const VuetifylIcon = <SiVuetify className="text-3xl text-css" />;
+    const SassIcon = <FaSass className="text-3xl text-sass" />;
+    const HerokuIcon = <SiHeroku className="text-3xl text-heroku" />;
+    const NpmIcon = <FaNpm className="text-3xl text-npm" />;
 
     const projects = [
         {
+            title: "FarvellBot",
+            info:
+                "Personal discord bot for listen music, fun and moderation purposes. Youtube search, Imgur gifs and Reddit posts.",
+            imgSrc: "https://discord.com/assets/ef555bf639a11bd65ae3065263788bba.png",
+            icons: [ JavascriptIcon, NodeIcon, HerokuIcon ],
+            code: "https://github.com/farvellhub/farvell-bot",
+            demo: "https://discord.com/api/oauth2/authorize?client_id=822634934690250762&permissions=0&scope=bot",
+        },
+        {
+            title: "JFlow-core",
+            info:
+                "Npm package for animation, rendering and styling elements on plain html.",
+            imgSrc: "https://cdn.hashnode.com/res/hashnode/image/upload/v1604287956651/Jfvb2GjLZ.jpeg",
+            icons: [ TypescriptIcon, NodeIcon, NpmIcon ],
+            code: "https://github.com/farvellhub/farvell-bot",
+            demo: "https://www.npmjs.com/package/@farvell/jflow-core",
+        },
+        {
             title: "Sa Serradora",
             info:
-                "Template for modern carpentry website.",
-            imgSrc: "",
-            icons: [ ReactIcon, ReduxIcon, NodeIcon ],
+                "Landing page for modern carpentry website. Parallax effect, full responsive design.",
+            imgSrc: "https://i.imgur.com/ZT6R2ah.png",
+            icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
             code: "https://github.com/farvellhub/serradora",
-            demo: "https://kikoterrasa.github.com",
+            demo: "https://kikoterrasa.github.io",
         },
         {
-            title: "Yokogawa Production Management Portal",
-            imgSrc: "https://emanuallan.github.io/img/yoko.jpg",
+            title: "NStudio",
             info:
-                "Real e-shop made consuming Commerce.js API.",
-            icons: [ ReactIcon, NodeIcon ],
-            code: "https://github.com/JIC-8130/jic-8130-yca",
-            demo: "https://drive.google.com/file/d/1O0toj9WJowP8zXn_LlicOmgb4Tj2fUAa/view",
-        },
-        {
-            title: "Purplepundit",
-            imgSrc: "https://emanuallan.github.io/img/purple-pundit.jpg",
-            info:
-                "React web application that seperates the latest news articles according to their liberal & conservative bias using the NewsAPI and Media Bias Fact Checker.",
-            icons: [ ReactIcon, NodeIcon ],
-            code: "https://github.com/emanuallan/WTLT",
-            demo: "https://purplepundit.appspot.com/",
-        },
-        {
-            title: "Dispersive Service-Prov Dashboard",
-            info:
-                "A dashboard created for Dispersive's clientel's devices. Users can add, edit, delete, and search for certain devices within their system.",
-            imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
-            icons: [ ReactIcon, ReduxIcon, NodeIcon ],
-            code: "https://github.com/emanuallan/service-prov-dash",
-            demo: "https://www.youtube.com/watch?v=De4pSY9tKsE&ab_channel=AllanSerna",
-        },
-        {
-            title: "Stock Web Applet",
-            info:
-                "A small web applet that allows users to keep track of stocks and calculate profit gains and losses, as well as, equity percentages. I created this applet with the purpose of practicing with React's hook features (useState, useEffect). Data was fetched from the Finnhub API.",
-            imgSrc: "https://emanuallan.github.io/img/stocko.png",
-            icons: [ ReactIcon, ReduxIcon, NodeIcon ],
-            code: "https://github.com/emanuallan/stocko",
-            demo: "https://stocko.netlify.app/",
-        },
-        {
-            title: "Joe's New Balance Shoe Tracker Script",
-            info:
-                "A python script that checks New Balance's outlet store website, Joe's, and checks for price changes (+/-) and new arrivals, as well as, removals amongst sneakers and clothing and exports them as a csv file. Done with Selenium and ChromeDriver.",
-            imgSrc:
-                "https://9to5toys.com/wp-content/uploads/sites/5/2018/06/joes-new-balance-4th-of-july.jpg?quality=82&strip=all",
-            icons: [ JavascriptIcon ],
-            code: "https://github.com/emanuallan/stocko",
-            demo:
-                "https://photos.google.com/share/AF1QipPw4ZSDQKFZ6Tu_Hb8_NcpCFwFVT7tP348chXWTI_JQta8u_EtkPr4Uw7RrKEudTQ?key=Y2pwQ042OGY3dXpncmZ3cW92Y1R2dWt0dW9Bb2Vn",
-        },
-        {
-            title: "Investing Into Your Education Visual",
-            info:
-                "Data visualization that allows you to interact with data about income and higher education from various U.S. colleges of 2009.",
-            imgSrc: "https://emanuallan.github.io/img/vis.png",
-            icons: [ JavascriptIcon, HTMLIcon, CSSIcon ],
-            code: "https://github.com/emanuallan/Colleges-P5",
-            demo: "https://emanuallan.github.io/vis.html",
-        },
-        {
-            title: "Weather Applet",
-            info: "Mini weather app using the OpenWeather API and Bootstrap. Credit to Hamza Mirza for the tutorial.",
-            imgSrc: "https://emanuallan.github.io/img/weather-app.jpg",
-            icons: [ ReactIcon ],
-            code: "https://github.com/emanuallan/weather-app",
-            demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
+                "Template conceptually made for a design studio. Lightbox showcase and responsivness.",
+            imgSrc: "https://i.imgur.com/5ZjKB43.png",
+            icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
+            code: "https://github.com/farvellhub/nstudio",
+            demo: "https://farvellhub.github.io",
         }
     ];
     return (
@@ -145,17 +114,19 @@ const Projects = (): JSX.Element => {
                     info={
                         "D-Safe is a discord bot created for online security, anti-spam and moderation purposes."
                     }
-                    icons={[ NextJsIcon, ReactIcon, ReduxIcon, TailwindIcon ]}
+                    icons={[ NextJsIcon, ReactIcon, ReduxIcon, TailwindIcon, TypescriptIcon ]}
                     color="#7289DA"
                     logoUrl="https://d33wubrfki0l68.cloudfront.net/747415793f4f58c0e000453dc0d08d250eaaa9d7/e68f2/assets/svg/logo.svg"
+                    site="https://discordsafe.com"
                 />
                 <FeaturedProjectCard
                     imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
-                    info="3D viewer for OpenStreet maps."
-                    icons={[ TypescriptIcon, VueJslIcon, VuetifylIcon, WebGlIcon ]}
+                    info="3D viewer for OpenStreet maps. I helped migrating their viewer to typescript and other issues on frontend design."
+                    icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
                     color="#08415C"
                     logoUrl="https://i.imgur.com/iNBZyhh.png"
+                    site="https://3dsmaps.com/maps/@42.2308346,-8.7278964,9.0z"
                 />
             </div>
             <div className="flex self-start mt-10 uppercase tracking-widest">
