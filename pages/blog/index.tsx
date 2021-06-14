@@ -54,19 +54,16 @@ export default function Blog({ metadata }: BlogProps ): JSX.Element {
                     <ul>
                         {metadata?.map(( meta ) => (
                             <li key={meta.id}>
-                                {/* <Link
-                                    href="/blog/[postname]"
-                                    as={`/blog/${formatTitleURLParam(meta.title)}`} // Use FormattedURL instead of this function
-                                > */}
-                                <div role="button" className="flex justify-between flex-wrap border-b border-t p-4">
-                                    <div>
-                                        <p className="text-react text-lg">{meta.title}</p>
+                                <Link href="/blog/[postname]">
+                                    <div role="button" className="flex justify-between flex-wrap border-b border-t p-4">
+                                        <div>
+                                            <p className="text-react text-lg">{meta.title}</p>
 
-                                        <p className="text-sm opacity-75">{meta.subtitle}</p>
+                                            <p className="text-sm opacity-75">{meta.subtitle}</p>
+                                        </div>
+                                        <p>{meta.date}</p>
                                     </div>
-                                    <p>{meta.date}</p>
-                                </div>
-                                {/* </Link> */}
+                                </Link>
                             </li>
                         ))}
                     </ul>

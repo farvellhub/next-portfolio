@@ -6,15 +6,16 @@ import Router from "next/router";
 import NProgress from "nprogress"; //nprogress module
 import "nprogress/nprogress.css"; //styles of nprogress
 
+// binding events
+Router.events.on( "routeChangeStart", () => NProgress.start());
+Router.events.on( "routeChangeComplete", () => NProgress.done());
+Router.events.on( "routeChangeError", () => NProgress.done());
+
 import { Menu, Footer } from "../components/";
 
 import "../styles/index.css";
 
-function MyApp({ Component, pageProps }: AppProps ): JSX.Element {
-    Router.events.on( "routeChangeStart", () => NProgress.start());
-    Router.events.on( "routeChangeComplete", () => NProgress.done());
-    Router.events.on( "routeChangeError", () => NProgress.done());
-    
+function MyApp({ Component, pageProps }: AppProps ): JSX.Element {    
     return (
         <>
             <Head>

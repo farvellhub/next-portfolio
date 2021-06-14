@@ -8,9 +8,9 @@ const Footer = (): JSX.Element => {
             <div className="flex">
                 Built with
                 <div className="flex ml-2 mt-1">
-                    <SiReact className="text-react" /> <SiNextDotJs className="mx-1 " />
-                    <SiTailwindcss className="text-tailwind" />
-                    <SiTypescript className="text-typescript" />
+                    <SiReact className="text-react mx-1" /> <SiNextDotJs className="mx-1 " />
+                    <SiTailwindcss className="text-tailwind mx-1" />
+                    <SiTypescript className="text-typescript mx-1" />
                 </div>
             </div>
 
@@ -18,7 +18,7 @@ const Footer = (): JSX.Element => {
                 <BsLightningFill className="text-firebase mt-1" /> <span className="mx-1">by</span>
                 <a href="https://github.com/farvellhub/next-portfolio" className="underline" target="_blank" rel="noreferrer">
                     {" "}
-                    netlify
+                    Farvell
                 </a>
             </div>
         </div>

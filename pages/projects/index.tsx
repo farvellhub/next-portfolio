@@ -1,9 +1,15 @@
 import React from "react";
-// import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from "react-tooltip";
+import GitHubCalendar from "react-github-calendar";
 
-// import ReactTooltip from "react-tooltip";
-import HorizontalCard from "../../components/HorizontalCard";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy } from "react-icons/fa";
+import {
+    FaReact,
+    FaNodeJs,
+    FaHtml5,
+    FaCss3Alt,
+    FaTrophy
+} from "react-icons/fa";
+
 import {
     SiRedux,
     SiTailwindcss,
@@ -11,17 +17,19 @@ import {
     SiJavascript,
     SiMongodb,
     SiFirebase,
-    SiUnity,
-    SiD3DotJs,
     SiAdobephotoshop,
     SiTypescript,
-} from "react-icons/si"; //got from https://react-icons.github.io/search
+} from "react-icons/si";
+
 import { IoIosTime } from "react-icons/io";
-import FeaturedProjectCard from "../../components/FeaturedProjectCard";
+
+import {
+    FeaturedProjectCard,
+    HorizontalCard
+} from "../../components/";
 
 //border-b-2 border-yikyak
 const Projects = (): JSX.Element => {
-    const PythonIcon = <FaPython className="text-4xl text-python" />;
     const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
     const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
     const ReactIcon = <FaReact className="text-4xl text-react" />;
@@ -31,17 +39,15 @@ const Projects = (): JSX.Element => {
     const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
     const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
     const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
-    const UnityIcon = <SiUnity className="text-3xl text-black" />;
-    const D3Icon = <SiD3DotJs className="text-3xl text-d3" />;
     const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
     const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
     const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
 
     const projects = [
         {
-            title: "Dispersive Interactive Visual Workflow",
+            title: "Sa serradora",
             info:
-                "A user-facing interactive visual workflow tree for the new version of Dispersive's Service Provider with ReactJS. This workflow tree engages our API and allows users/groups/devices to obtain certain permissions (e.g. for certain applications) based on their positioning within the hierarchy of the tree.",
+                "Template for modern carpentry website made it on HTML5 and Sass",
             imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
             icons: [ ReactIcon, ReduxIcon, NodeIcon ],
             code: "https://github.com/emanuallan/rc-org-chart",
@@ -79,7 +85,7 @@ const Projects = (): JSX.Element => {
             info:
                 "This video game was created in the Georgia Tech CS 6457 Video Game Design Class. The game is called Illuso and showcases a magician character trapped in a magical labyrinth who must gather magical playing cards to acquire new abilities and escape!",
             imgSrc: "https://emanuallan.github.io/img/illuso.jpg",
-            icons: [ UnityIcon ],
+            icons: [ JavascriptIcon ],
 
             demo: "https://www.youtube.com/watch?v=8T5j5ixqaCk&ab_channel=MattygFTW",
         },
@@ -107,7 +113,7 @@ const Projects = (): JSX.Element => {
                 "A python script that checks New Balance's outlet store website, Joe's, and checks for price changes (+/-) and new arrivals, as well as, removals amongst sneakers and clothing and exports them as a csv file. Done with Selenium and ChromeDriver.",
             imgSrc:
                 "https://9to5toys.com/wp-content/uploads/sites/5/2018/06/joes-new-balance-4th-of-july.jpg?quality=82&strip=all",
-            icons: [ PythonIcon ],
+            icons: [ JavascriptIcon ],
             code: "https://github.com/emanuallan/stocko",
             demo:
                 "https://photos.google.com/share/AF1QipPw4ZSDQKFZ6Tu_Hb8_NcpCFwFVT7tP348chXWTI_JQta8u_EtkPr4Uw7RrKEudTQ?key=Y2pwQ042OGY3dXpncmZ3cW92Y1R2dWt0dW9Bb2Vn",
@@ -117,7 +123,7 @@ const Projects = (): JSX.Element => {
             info:
                 "Data visualization that allows you to interact with data about income and higher education from various U.S. colleges of 2009.",
             imgSrc: "https://emanuallan.github.io/img/vis.png",
-            icons: [ D3Icon, JavascriptIcon, HTMLIcon, CSSIcon ],
+            icons: [ JavascriptIcon, HTMLIcon, CSSIcon ],
             code: "https://github.com/emanuallan/Colleges-P5",
             demo: "https://emanuallan.github.io/vis.html",
         },
@@ -128,13 +134,13 @@ const Projects = (): JSX.Element => {
             icons: [ ReactIcon ],
             code: "https://github.com/emanuallan/weather-app",
             demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
-        },
+        }
     ];
 
     return (
         <div className="text-whippy flex flex-col items-center">
-            {/* <GitHubCalendar
-                username="emanuallan"
+            <GitHubCalendar
+                username="farvellhub"
                 theme={{
                     background: "transparent",
                     text: "#eeeeee",
@@ -146,7 +152,7 @@ const Projects = (): JSX.Element => {
                 }}
             >
                 <ReactTooltip delayShow={50} html />
-            </GitHubCalendar> */}
+            </GitHubCalendar>
             <div className="flex self-start mt-10 uppercase tracking-widest">
                 <FaTrophy className="text-xl mr-2 " />
                 <p>Featured Projects</p>

@@ -35,7 +35,7 @@ const Scholars = (): JSX.Element => {
     // const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
     // const UnityIcon = <SiUnity className="text-3xl text-black" />;
     // const D3Icon = <SiD3DotJs className="text-3xl text-d3" />;
-    // const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
+    const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
     const ReactIcon = <FaReact className="text-4xl text-react" />;
     const NodeIcon = <FaNodeJs className="text-4xl text-node" />;
     const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
