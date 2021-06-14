@@ -2,7 +2,7 @@
     "name": "next-portfolio",
     "version": "1.0.0",
     "engines": {
-        "node": "14.x"
+        "node": "11.x"
     },
     "scripts": {
         "dev": "next",
