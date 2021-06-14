@@ -3,18 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.disappear {
-    animation: dissapear 1s ease;
-    opacity: 0;
-    z-index: -1;
-}
-
-@keyframes dissapear {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
