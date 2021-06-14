@@ -45,19 +45,19 @@ const Projects = (): JSX.Element => {
 
     const projects = [
         {
-            title: "Sa serradora",
+            title: "Sa Serradora",
             info:
-                "Template for modern carpentry website made it on HTML5 and Sass",
-            imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
+                "Template for modern carpentry website.",
+            imgSrc: "",
             icons: [ ReactIcon, ReduxIcon, NodeIcon ],
-            code: "https://github.com/emanuallan/rc-org-chart",
-            demo: "https://www.youtube.com/watch?v=De4pSY9tKsE&feature=youtu.be&t=56&ab_channel=AllanSerna",
+            code: "https://github.com/farvellhub/serradora",
+            demo: "https://kikoterrasa.github.com",
         },
         {
             title: "Yokogawa Production Management Portal",
             imgSrc: "https://emanuallan.github.io/img/yoko.jpg",
             info:
-                "A dashboard web application created for Quality Assurance Engineers at Yokogawa so that they could actively review the performance of each of their assembly lines.",
+                "Real e-shop made consuming Commerce.js API.",
             icons: [ ReactIcon, NodeIcon ],
             code: "https://github.com/JIC-8130/jic-8130-yca",
             demo: "https://drive.google.com/file/d/1O0toj9WJowP8zXn_LlicOmgb4Tj2fUAa/view",
@@ -150,10 +150,10 @@ const Projects = (): JSX.Element => {
                     logoUrl="https://d33wubrfki0l68.cloudfront.net/747415793f4f58c0e000453dc0d08d250eaaa9d7/e68f2/assets/svg/logo.svg"
                 />
                 <FeaturedProjectCard
-                    imgSrc="https://tallysight.com/widget.png"
+                    imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
                     info="3D viewer for OpenStreet maps."
-                    icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
+                    icons={[ TypescriptIcon, VueJslIcon, VuetifylIcon, WebGlIcon ]}
                     color="#08415C"
                     logoUrl="https://i.imgur.com/iNBZyhh.png"
                 />
