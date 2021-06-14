@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> My personal portfolio made it with react.
+> My personal portfolio deployed on heroku.
 
 ## Installation
 
