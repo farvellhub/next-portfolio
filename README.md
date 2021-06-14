@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Template of portfolio web designed on minimalism design. Full responsive. Using Jflow.
+> My personal portfolio made it with react.
 
 ## Installation
 
