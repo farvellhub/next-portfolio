@@ -1,6 +1,6 @@
 import React from "react";
 //import Link from "next/link";
-import { RiLinkedinLine, RiGithubLine, RiTwitterLine, RiMailLine } from "react-icons/ri";
+import { RiLinkedinLine, RiGithubLine, RiMailLine } from "react-icons/ri";
 
 const Menu = (): JSX.Element => {
     return (
@@ -11,7 +11,7 @@ const Menu = (): JSX.Element => {
     flex flex-wrap font-semibold tracking-widest uppercase mb-16 `} //menuMin:mb-20
         >
             <span className=" font-bold text-xl  text-center menuMin:float-left w-full menuMin:w-auto">
-                ALLAN E. SERNA
+                Farvell&apos;s website
             </span>
             <div
                 className={`py-4 menuMin:py-0 w-full md:w-3/4 lg:w-1/2 mx-auto flex flex-wrap justify-around 
@@ -21,20 +21,17 @@ const Menu = (): JSX.Element => {
 
                 <a href="/projects">PROJECTS</a>
 
-                {/* <Link href="/blog">
-                    <a>BLOG</a>
-                </Link> */}
+                <a href="/blog">BLOG</a>
 
                 {/* <img
           className="w-8 h-8 rounded-full"
           src="https://emanuallan.github.io/apple-touch-icon.png"
           alt="Avatar of Jonathan Reinink"
         /> */}
-                {/* <span className="cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
+                {/* {<span className="cursor-pointer" onClick={() => setDarkMode( !darkMode )}>
                     {darkMode && "🌝"}
                     {!darkMode && "🌚"}
-                </span> */}
-                <a href="/resume">RESUME</a>
+                </span>} */}
 
                 {/* <Link href="/about">
                     <a>ABOUT</a>

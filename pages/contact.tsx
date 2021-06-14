@@ -32,7 +32,6 @@ export default function ContactUs(): JSX.Element {
     return (
         
         <>
-            
             <form className="contact-form uppercase tracking-widest text-whippy" onSubmit={sendEmail}>
                 <input type="hidden" name="contact_number" />
                 <SiMinutemailer className="text-4xl mx-auto mb-8" />
@@ -86,6 +85,5 @@ export default function ContactUs(): JSX.Element {
                 </div>
             </form>
         </>
-                    
     );
 }

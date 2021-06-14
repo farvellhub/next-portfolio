@@ -15,6 +15,7 @@ module.exports = {
                 tailwind: "#15B7C4",
                 firebase: "#F7C52E",
                 javascript: "#F1D43B",
+                typescript: "#007ACC",
                 html: "#E9642A",
                 css: "#0068BA",
                 mongo: "#66AC3D",

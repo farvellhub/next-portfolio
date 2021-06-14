@@ -1,5 +1,5 @@
 import React from "react";
-import { SiReact, SiTailwindcss, SiNextDotJs } from "react-icons/si";
+import { SiReact, SiTailwindcss, SiNextDotJs, SiTypescript } from "react-icons/si";
 import { BsLightningFill } from "react-icons/bs";
 
 const Footer = (): JSX.Element => {
@@ -10,6 +10,7 @@ const Footer = (): JSX.Element => {
                 <div className="flex ml-2 mt-1">
                     <SiReact className="text-react" /> <SiNextDotJs className="mx-1 " />
                     <SiTailwindcss className="text-tailwind" />
+                    <SiTypescript className="text-typescript" />
                 </div>
             </div>
 
