@@ -1,41 +1,49 @@
-# TypeScript Next.js example
+<h1 align="center">Welcome to my personal portfolio.👋</h1>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
+  </a>
+</p>
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+> Template of portfolio web designed on minimalism design. Full responsive. Using Jflow.
 
-## Deploy your own
+## Installation
 
-Deploy the example using [Vercel](https://vercel.com):
+- npm install
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
+## Where to start.
 
-## How to use it?
+- npm run dev - to run development build.
+- npm run build - to run development build 
+- npm run export - for production environment.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Directories
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
+· /public/: Public files.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+· /pages/: Next routes.
 
-## Notes
+· /components/: React components.
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+· /styles: Tailwind css imports.
 
-```
-npm install --save-dev typescript
-```
+## Characteristics.
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+· Next.js / React.
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+· TailwindCSS.
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+· Typescript.
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## Questions?
+
+If you have any questions, please feel free to contact me on discord Farvell⚡#3387.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
