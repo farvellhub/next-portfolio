@@ -1,4 +1,4 @@
-// import Link from "next/link";
+import Link from "next/link";
 // import { formatTitleURLParam } from "../../support";
 // import * as matter from "gray-matter";
 // import fs from "fs";
