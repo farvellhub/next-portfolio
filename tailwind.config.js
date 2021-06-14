@@ -10,7 +10,6 @@ module.exports = {
                 react: "#61DBFB",
                 redux: "#764ABC",
                 node: "#7CB701",
-                d3: "#EE8447",
                 python: "#3672A7",
                 tailwind: "#15B7C4",
                 firebase: "#F7C52E",

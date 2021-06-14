@@ -81,15 +81,6 @@ const Projects = (): JSX.Element => {
             demo: "https://www.youtube.com/watch?v=De4pSY9tKsE&ab_channel=AllanSerna",
         },
         {
-            title: "Illuso: A Labyrinth Of Magic Game",
-            info:
-                "This video game was created in the Georgia Tech CS 6457 Video Game Design Class. The game is called Illuso and showcases a magician character trapped in a magical labyrinth who must gather magical playing cards to acquire new abilities and escape!",
-            imgSrc: "https://emanuallan.github.io/img/illuso.jpg",
-            icons: [ JavascriptIcon ],
-
-            demo: "https://www.youtube.com/watch?v=8T5j5ixqaCk&ab_channel=MattygFTW",
-        },
-        {
             title: "Stock Web Applet",
             info:
                 "A small web applet that allows users to keep track of stocks and calculate profit gains and losses, as well as, equity percentages. I created this applet with the purpose of practicing with React's hook features (useState, useEffect). Data was fetched from the Finnhub API.",
@@ -97,15 +88,6 @@ const Projects = (): JSX.Element => {
             icons: [ ReactIcon, ReduxIcon, NodeIcon ],
             code: "https://github.com/emanuallan/stocko",
             demo: "https://stocko.netlify.app/",
-        },
-        {
-            title: "RingAlert",
-            info:
-                "Collaborated on a device prototype (initial steps towards ring prototype) that alerts important contacts when found in danger. This project was developed in React and uses the Twilio API for messaging integration and various web modules to capture location and Bluetooth connectivity. (PWA)",
-            imgSrc:
-                "https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-technology-cyber-security-poster-image_261494.jpg",
-            icons: [ ReactIcon ],
-            code: "https://github.com/emanuallan/jon-joe-script",
         },
         {
             title: "Joe's New Balance Shoe Tracker Script",
@@ -164,16 +146,16 @@ const Projects = (): JSX.Element => {
                         "D-Safe is a discord bot created for online security, anti-spam and moderation purposes."
                     }
                     icons={[ NextJsIcon, ReactIcon, ReduxIcon, TailwindIcon ]}
-                    color="#08415C"
+                    color="#7289DA"
                     logoUrl="https://d33wubrfki0l68.cloudfront.net/747415793f4f58c0e000453dc0d08d250eaaa9d7/e68f2/assets/svg/logo.svg"
                 />
                 <FeaturedProjectCard
                     imgSrc="https://tallysight.com/widget.png"
-                    title={"TallySight"}
-                    info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
+                    title={"DDD Viewer"}
+                    info="3D viewer for OpenStreet maps."
                     icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
-                    color="#29AAE1"
-                    logoUrl="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io"
+                    color="#08415C"
+                    logoUrl="https://i.imgur.com/iNBZyhh.png"
                 />
             </div>
             <div className="flex self-start mt-10 uppercase tracking-widest">

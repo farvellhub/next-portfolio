@@ -44,16 +44,12 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({ title, info, imgSrc, ic
                             ))}
                         </div>
                         <div className="flex items-center">
-                            {code && (
-                                <a href={code} target="_blank" rel="noreferrer">
-                                    <DiGithubAlt className="text-3xl text-charcoal mr-2" />
-                                </a>
-                            )}
-                            {demo && (
-                                <a href={demo} target="_blank" rel="noreferrer">
-                                    <FaPlay className="text-lg text-charcoal" />
-                                </a>
-                            )}
+                            <a href={code} target="_blank" rel="noreferrer">
+                                <DiGithubAlt className="text-3xl text-charcoal mr-2" />
+                            </a>
+                            <a href={demo} target="_blank" rel="noreferrer">
+                                <FaPlay className="text-lg text-charcoal" />
+                            </a>
                         </div>
                     </div>
                 </div>

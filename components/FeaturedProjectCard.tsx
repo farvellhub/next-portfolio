@@ -42,7 +42,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
                             </h2>
                         </div>
                         <div className="flex items-center">
-                            <img className="rounded-full h-10 w-10" src={logoUrl} alt={title} />
+                            <img className="h-10 w-10" src={logoUrl} alt={title} />
                         </div>
                     </div>
 
