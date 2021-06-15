@@ -4,6 +4,7 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
+  <a href="https://discord.gg/tpNtcJHw" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 </p>
 
 > My personal portfolio deployed on heroku.
