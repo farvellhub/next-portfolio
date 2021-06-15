@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to my personal portfolio.👋</h1>
+<h1 align="center">Welcome to my personal portfolio👋</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
