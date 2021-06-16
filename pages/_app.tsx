@@ -1,6 +1,7 @@
 import React from "react";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import CookieConsent from "react-cookie-consent";
 
 import { Menu, Footer } from "../components/";
 
@@ -34,7 +35,27 @@ function MyApp({ Component, pageProps }: AppProps ): JSX.Element {
                     </div>
                 </div>
             </div>
-            
+            <CookieConsent
+                location="bottom"
+                buttonText="I understand!"
+                
+                cookieName="cookie"
+                style={{
+                    background: "#222222",
+                    color: "#EEEEEE",
+                    padding: "0 2.75rem"
+                }}
+                buttonStyle={{
+                    color: "#222222",
+                    borderRadius: "3px",
+                    backgroundColor: "#E1D43B",
+                    fontSize: "13px",
+                    hoover: "#D0C32C"
+                }}
+                expires={150}
+            >
+  This website uses cookies to enhance the user experience.{" "}                
+            </CookieConsent>
         </>
     );
 }

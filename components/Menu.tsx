@@ -9,8 +9,8 @@ import {
 const Menu = (): JSX.Element => {
     return (
         <div className={"pt-6 text-whippy flex flex-wrap font-semibold tracking-widest uppercase mb-16"}>
-            <span className=" font-bold text-xl  text-center menuMin:float-left w-full menuMin:w-auto">
-                Farvell&apos;s website
+            <span className=" font-bold text-xl text-center menuMin:float-left w-full menuMin:w-auto">
+                <span className="text-typescript">Farvell</span>&apos;s website
             </span>
             <div className={"py-4 menuMin:py-0 w-1/2 lg:w-1/4 mx-auto flex flex-wrap justify-around xt-whippy font-thin"} >
                 <a href="/" className="hover:text-css">HOME</a>

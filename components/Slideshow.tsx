@@ -18,7 +18,7 @@ const images = [
 const Slideshow = (): JSX.Element => {
     return (
         <>
-            <ImageGallery items={images} autoPlay={true} />;
+            <ImageGallery items={images} autoPlay={true} />
         </>
     );
 };
