@@ -65,7 +65,7 @@ const Projects = (): JSX.Element => {
                 "Npm package for animation, rendering and styling elements on plain html.",
             imgSrc: "https://cdn.hashnode.com/res/hashnode/image/upload/v1604287956651/Jfvb2GjLZ.jpeg",
             icons: [ TypescriptIcon, NodeIcon, NpmIcon ],
-            code: "https://github.com/farvellhub/farvell-bot",
+            code: "https://github.com/farvellhub/jflow-core",
             demo: "https://www.npmjs.com/package/@farvell/jflow-core",
         },
         {
