@@ -72,7 +72,7 @@ const Projects = (): JSX.Element => {
             title: "Sa Serradora",
             info:
                 "Landing page for modern carpentry website. Parallax effect, full responsive design.",
-            imgSrc: "https://i.imgur.com/ZT6R2ah.png",
+            imgSrc: "https://i.imgur.com/ZKddg29.png",
             icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
             code: "https://github.com/farvellhub/serradora",
             demo: "https://kikoterrasa.github.io",
@@ -81,7 +81,7 @@ const Projects = (): JSX.Element => {
             title: "NStudio",
             info:
                 "Template conceptually made for a design studio. Lightbox showcase and responsivness.",
-            imgSrc: "https://i.imgur.com/5ZjKB43.png",
+            imgSrc: "https://i.imgur.com/Hw6gzZ5.png",
             icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
             code: "https://github.com/farvellhub/nstudio",
             demo: "https://farvellhub.github.io",
