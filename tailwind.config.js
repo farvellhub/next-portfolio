@@ -17,7 +17,7 @@ module.exports = {
                 heroku: "#6762a6",
                 npm: "#cb3837",
                 background: "#F9FAFB",
-                // mongo: "#66AC3D",
+                // mongo: "#66AC3D"
             },
             screens: {
                 xs: "320px",
@@ -29,6 +29,9 @@ module.exports = {
                 "7xl": "1440px",
                 menuMin: "1024px",
             },
+            fontSize: {
+                "9xl": "9rem",
+            }
         },
     },
     variants: {},
