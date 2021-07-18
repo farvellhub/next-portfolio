@@ -122,7 +122,7 @@ const Projects = (): JSX.Element => {
                 <ProjectCard
                     imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
-                    info="3D viewer for OpenStreet maps. I helped migrating their viewer to typescript and other issues on frontend design."
+                    info="3D viewer for OpenStreet maps."
                     icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
                     color="#473D54"
                     logoUrl="https://i.imgur.com/mNAWRfY.png"
