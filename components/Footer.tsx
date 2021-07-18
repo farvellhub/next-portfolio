@@ -4,8 +4,7 @@ import {
     SiReact,
     SiTailwindcss,
     SiNextDotJs,
-    SiTypescript,
-    IoLogoVercel
+    SiTypescript
 } from "react-icons/si";
 
 import { BsLightningFill } from "react-icons/bs";
@@ -20,7 +19,6 @@ const Footer = (): JSX.Element => {
                     <SiNextDotJs className="mx-1 text-black" />
                     <SiTailwindcss className="text-tailwind mx-1" />
                     <SiTypescript className="text-typescript mx-1" />
-                    <IoLogoVercel className="text-black mx-1" />
                 </div>
             </div>
 

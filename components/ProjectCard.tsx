@@ -1,16 +1,9 @@
 import React from "react";
 
-interface FeaturedProjectCardProps {
-    title: string;
-    info: string;
-    imgSrc: string;
-    icons: JSX.Element[];
-    color: string;
-    logoUrl: string;
-    site: string;
-}
+import ProjectCardProps from "../types/ProjectCardProps";
 
-const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
     title,
     info,
     imgSrc,
@@ -18,7 +11,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
     color,
     logoUrl,
     site
-}: FeaturedProjectCardProps ): JSX.Element => {
+}: ProjectCardProps ): JSX.Element => {
     return (
         <div className="w-full">
             <div className="bg-white shadow-2xl rounded-xs mb-6 tracking-wide">
@@ -69,4 +62,4 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
     );
 };
 
-export default FeaturedProjectCard;
+export default ProjectCard;

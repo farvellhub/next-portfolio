@@ -1,17 +1,19 @@
 import React from "react";
+
 import { DiGithubAlt } from "react-icons/di";
 import { FaPlay } from "react-icons/fa";
 
-interface HorizontalCardProps {
-    title: string;
-    info: string;
-    imgSrc: string;
-    icons: JSX.Element[];
-    code: string;
-    demo: string;
-}
+import HorizontalCardProps from "../types/HorizontalCardProps";
 
-const HorizontalCard: React.FC<HorizontalCardProps> = ({ title, info, imgSrc, icons, code, demo }: HorizontalCardProps ): JSX.Element => {
+
+const HorizontalCard: React.FC<HorizontalCardProps> = ({
+    title, 
+    info,
+    imgSrc,
+    icons,
+    code,
+    demo
+}: HorizontalCardProps ): JSX.Element => {
     return (
         <>
             <div className="max-w-sm w-full lg:max-w-full lg:flex mt-10">

@@ -1,11 +1,11 @@
-import FeaturedProjectCard from "./FeaturedProjectCard";
+import ProjectCard from "./ProjectCard";
 import Footer from "./Footer";
 import HorizontalCard from "./HorizontalCard";
 import Menu from "./Menu";
 import Slideshow from "./Slideshow";
 
 export {
-    FeaturedProjectCard,
+    ProjectCard,
     Footer,
     HorizontalCard,
     Menu,
