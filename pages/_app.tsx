@@ -1,11 +1,19 @@
 import React from "react";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import tw from "twin.macro";
+
 import CookieConsent from "react-cookie-consent";
 
 import { Menu, Footer } from "../components/";
 
 import "../styles/index.css";
+
+
+const App = tw.div`flex justify-center bg-background`;
+const Wrapper = tw.div`bg-background  h-full min-h-screen max-w-7xl w-full`;
+const Responsive = tw.div`mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between`;
+
 
 function MyApp({ Component, pageProps }: AppProps ): JSX.Element {    
     return (
@@ -24,15 +32,15 @@ function MyApp({ Component, pageProps }: AppProps ): JSX.Element {
                     }}
                 />
             </Head>
-            <div className="flex justify-center bg-background ">
-                <div className={"bg-background  h-full min-h-screen max-w-7xl w-full"}>
-                    <div className="mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between">
+            <App>
+                <Wrapper>
+                    <Responsive>
                         <Menu />
                         <Component {...pageProps} />
                         <Footer />
-                    </div>
-                </div>
-            </div>
+                    </Responsive>
+                </Wrapper>
+            </App>
             <CookieConsent
                 location="bottom"
                 buttonText="I understand!"

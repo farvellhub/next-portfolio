@@ -1,4 +1,5 @@
 import React from "react";
+import tw from "twin.macro";
 
 import {
     SiReact,
@@ -9,9 +10,13 @@ import {
 
 import { BsLightningFill } from "react-icons/bs";
 
+
+const FooterWrapper = tw.div`mt-16 mb-10 uppercase tracking-widest text-right text-whippy flex justify-between flex-wrap`;
+
+
 const Footer = (): JSX.Element => {
     return (
-        <div className="mt-16 mb-10  uppercase tracking-widest text-right text-whippy flex justify-between flex-wrap">
+        <FooterWrapper>
             <div className="flex">
                 Built with
                 <div className="flex ml-2 mt-1">
@@ -33,7 +38,7 @@ const Footer = (): JSX.Element => {
                     Farvell
                 </a>
             </div>
-        </div>
+        </FooterWrapper>
     );
 };
 

@@ -1,4 +1,6 @@
 import React from "react";
+import tw from "twin.macro";
+
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 
@@ -31,7 +33,13 @@ import {
     HorizontalCard
 } from "../../components/";
 
-//border-b-2 border-yikyak
+
+const Wrapper = tw.div`text-whippy flex flex-col items-center`;
+const Heading = tw.div`flex self-start mt-10 uppercase tracking-widest`;
+const ProjectWrapper = tw.div`w-full grid grid-cols-1 gap-10 mt-10`;
+const ColumnWrapper = tw.div`grid sm:grid-cols-2 grid-cols-1 gap-10`;
+
+
 const Projects = (): JSX.Element => {
     const Webpack = <SiWebpack className="text-4xl text-tailwind" />;
     const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
@@ -88,7 +96,7 @@ const Projects = (): JSX.Element => {
         }
     ];
     return (
-        <div className="text-whippy flex flex-col items-center">
+        <Wrapper>
             <GitHubCalendar
                 username="farvellhub"
                 theme={{
@@ -103,11 +111,13 @@ const Projects = (): JSX.Element => {
             >
                 <ReactTooltip delayShow={50} html />
             </GitHubCalendar>
-            <div className="flex self-start mt-10 uppercase tracking-widest">
-                <FaTrophy className="text-xl mr-2 " />
+
+            <Heading>
+                <FaTrophy className="text-xl mr-2" />
                 <p> Projects</p>
-            </div>
-            <div className=" w-full grid  grid-cols-1 gap-10 mt-10">
+            </Heading>
+
+            <ProjectWrapper>
                 <ProjectCard
                     imgSrc="https://i.imgur.com/erjOZTD.png"
                     title={"Discord-Safe Bot"}
@@ -120,20 +130,22 @@ const Projects = (): JSX.Element => {
                     site="https://discordsafe.com"
                 />
                 <ProjectCard
-                    imgSrc="https://i.imgur.com/mNAWRfY.png"
+                    imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
-                    info="3D viewer for OpenStreet maps. I helped migrating their viewer to typescript and other issues on frontend design."
+                    info="3D viewer for OpenStreetMap."
                     icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
                     color="#473D54"
-                    logoUrl="https://i.imgur.com/iNBZyhh.png"
+                    logoUrl="https://i.imgur.com/mNAWRfY.png"
                     site="https://3dsmaps.com/maps/@42.2308346,-8.7278964,9.0z"
                 />
-            </div>
-            <div className="flex self-start mt-10 uppercase tracking-widest">
-                <IoIosTime className="text-xl mr-2 " />
+            </ProjectWrapper>
+
+            <Heading>
+                <IoIosTime className="text-xl mr-2" />
                 <p>Previous Projects</p>
-            </div>
-            <div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
+            </Heading>
+
+            <ColumnWrapper>
                 {projects?.map(( p ) => (
                     <HorizontalCard
                         key={p.info}
@@ -145,8 +157,8 @@ const Projects = (): JSX.Element => {
                         demo={p.demo}
                     />
                 ))}
-            </div>
-        </div>
+            </ColumnWrapper>
+        </Wrapper>
     );
 };
 
