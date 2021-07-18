@@ -120,12 +120,12 @@ const Projects = (): JSX.Element => {
                     site="https://discordsafe.com"
                 />
                 <ProjectCard
-                    imgSrc="https://i.imgur.com/mNAWRfY.png"
+                    imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
                     info="3D viewer for OpenStreet maps. I helped migrating their viewer to typescript and other issues on frontend design."
                     icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
                     color="#473D54"
-                    logoUrl="https://i.imgur.com/iNBZyhh.png"
+                    logoUrl="https://i.imgur.com/mNAWRfY.png"
                     site="https://3dsmaps.com/maps/@42.2308346,-8.7278964,9.0z"
                 />
             </div>
