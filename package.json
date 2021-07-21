@@ -21,6 +21,7 @@
         "react-icons": "^3.11.0",
         "react-image-gallery": "^1.1.1",
         "react-markdown": "^5.0.2",
+        "react-skills": "^1.27.0",
         "react-tooltip": "^4.2.10"
     },
     "devDependencies": {

@@ -22,6 +22,8 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
         "indent": [
             "error",
             4
@@ -54,5 +56,8 @@ module.exports = {
                 ]
             }
         ]
+    },
+    "globals": {
+        "React": "writable"
     }
 };

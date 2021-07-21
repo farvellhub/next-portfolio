@@ -1,5 +1,3 @@
-import React from "react";
-
 import { DiGithubAlt } from "react-icons/di";
 import { FaPlay } from "react-icons/fa";
 

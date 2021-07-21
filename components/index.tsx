@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import Footer from "./Footer";
 import HorizontalCard from "./HorizontalCard";
-import Menu from "./Menu";
+import Menu from "./Navbar";
 import Slideshow from "./Slideshow";
 
 export {

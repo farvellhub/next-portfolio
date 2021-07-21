@@ -1,4 +1,3 @@
-import React from "react";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import CookieConsent from "react-cookie-consent";
@@ -7,7 +6,8 @@ import { Menu, Footer } from "../components/";
 
 import "../styles/index.css";
 
-function MyApp({ Component, pageProps }: AppProps ): JSX.Element {    
+
+const MyApp = ({ Component, pageProps }: AppProps ): JSX.Element => {    
     return (
         <>
             <Head>
@@ -56,6 +56,6 @@ function MyApp({ Component, pageProps }: AppProps ): JSX.Element {
             </CookieConsent>
         </>
     );
-}
+};
 
 export default MyApp;

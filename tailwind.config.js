@@ -30,6 +30,7 @@ module.exports = {
                 menuMin: "1024px",
             },
             fontSize: {
+                "xl": "1.35rem",
                 "9xl": "9rem",
             }
         },
