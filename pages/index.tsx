@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+
 import { Slideshow } from "../components/";
 
 
@@ -12,8 +13,8 @@ const IndexPage: NextPage = () => {
                 <p className="text-xl w-full pb-2 text-whippy">
                     I&apos;m <span className="text-yellow-600">javascript</span> and <span className="text-blue-600">typescript</span> developer focused on website design and frontend development.
                 </p>
+               
                 <p className="text-xl w-full pb-16">Below you can see some of my projects.</p>
-                
             </div>
 
             <div className="py-20 px-10 bg-typescript rounded-sm">
