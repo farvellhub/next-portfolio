@@ -1,8 +1,10 @@
-export default interface HorizontalCardProps {
+type HorizontalCardProps = {
     title: string;
     info: string;
     imgSrc: string;
-    icons: JSX.Element[];
+    icons: Array<JSX.Element>;
     code: string;
     demo: string;
-}
+ }
+
+export default HorizontalCardProps;

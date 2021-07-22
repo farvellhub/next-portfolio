@@ -20,13 +20,13 @@ const Menu = (): JSX.Element => {
             <div className=" w-full menuMin:w-32 flex justify-center items-center">
                 <div className="flex flex-wrap justify-between w-32">
                     <a href="https://www.linkedin.com/in/adrian-terrasa/" target="_blank" rel="noreferrer">
-                        <RiLinkedinLine className={"w-6 h-6 text-whippy hover:text-css"} />
+                        <RiLinkedinLine className="w-6 h-6 text-whippy hover:text-css" />
                     </a>
                     <a href="https://github.com/farvellhub/" target="_blank" rel="noreferrer" >
-                        <RiGithubLine className={"w-6 h-6 text-whippy hover:text-css"} />
+                        <RiGithubLine className="w-6 h-6 text-whippy hover:text-css" />
                     </a>
                     <a href="mailto:farvellsmurf@gmail.com" target="_blank" rel="noreferrer">
-                        <RiMailLine className={"w-6 h-6 text-whippy hover:text-css"} />
+                        <RiMailLine className="w-6 h-6 text-whippy hover:text-css" />
                     </a>
                 </div>
             </div>
