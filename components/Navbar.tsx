@@ -11,7 +11,7 @@ const Menu = (): JSX.Element => {
             <span className=" font-bold text-xl text-center menuMin:float-left w-full menuMin:w-auto">
                 <span className="text-typescript">Farvell</span>&apos;s website
             </span>
-            <div className={"py-4 menuMin:py-0 w-full lg:w-1/2 mx-auto flex flex-wrap justify-around items-center xt-whippy font-normal"} >
+            <div className={"py-4 menuMin:py-0 w-full md:w-1/2 mx-auto flex flex-wrap justify-around items-center xt-whippy font-normal"} >
                 <a href="/" className="hover:text-css px-2">HOME</a>
                 <a href="/projects" className="hover:text-css px-2">PROJECTS</a>
                 <a href="/skills" className="hover:text-css pl-1">SKILLS</a>

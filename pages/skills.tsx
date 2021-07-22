@@ -23,7 +23,7 @@ const SkillsPage: NextPage = () => {
     return (
         <>
             <div className="w-full flex justify-items-center items-center flex-wrap">
-                <h2 className="w-full text-whippy pb-12 uppercase text-6xl menuMin:text-9xl font-bold">
+                <h2 className="w-full text-whippy pb-2 uppercase text-6xl menuMin:text-9xl font-bold">
                     My <span className="text-typescript">Skills</span>.
                 </h2>
 
