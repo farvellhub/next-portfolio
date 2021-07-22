@@ -10,7 +10,7 @@ import {
     WebpackIcon,
     BabelIcon,
     PostcssIcon,
-    GulpIcon,
+    JestIcon,
     ReactIcon,
     ReduxIcon,
     NextJsIcon,
@@ -51,7 +51,7 @@ const SkillsPage: NextPage = () => {
                             <li className="flex pb-2">{WebpackIcon} <span className="pl-2">Webpack</span></li>
                             <li className="flex pb-2">{BabelIcon} <span className="pl-2">Babel7</span></li>
                             <li className="flex pb-2">{PostcssIcon} <span className="pl-2">PostCSS</span></li>
-                            <li className="flex pb-2">{GulpIcon} <span className="pl-2">Gulp</span></li>
+                            <li className="flex pb-2">{JestIcon} <span className="pl-2">Jest</span></li>
                         </ul>
                     </div>
                     <div className="flex justify-center flex-wrap w-full menuMin:w-1/4 sm:w-1/2">

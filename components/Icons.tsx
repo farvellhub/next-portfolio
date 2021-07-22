@@ -4,7 +4,6 @@ import {
     FaHtml5,
     FaCss3Alt,
     FaNpm,
-    FaGulp,
     FaVuejs,
     FaSass
 } from "react-icons/fa";
@@ -22,7 +21,8 @@ import {
     SiWebgl,
     SiVuetify,
     SiWebpack,
-    SiHeroku
+    SiHeroku,
+    SiJest
 } from "react-icons/si";
 
 import { FiFigma } from "react-icons/fi";
@@ -45,8 +45,8 @@ const VueJslIcon = <FaVuejs className="text-2xl menuMin:text-3xl text-vuejs" />;
 const VuetifylIcon = <SiVuetify className="text-2xl menuMin:text-3xl text-css" />;
 const SassIcon = <FaSass className="text-2xl menuMin:text-3xl text-sass" />;
 const HerokuIcon = <SiHeroku className="text-2xl menuMin:text-3xl text-heroku" />;
+const JestIcon = <SiJest className="text-2xl menuMin:text-3xl text-jest" />;
 const NpmIcon = <FaNpm className="text-2xl menuMin:text-3xl text-npm" />;
-const GulpIcon = <FaGulp className="text-2xl menuMin:text-3xl text-gulp" />;
 const FigmaIcon = <FiFigma className="text-2xl menuMin:text-3xl text-black" />;
 const PhotoshopIcon = <SiAdobephotoshop className="text-2xl menuMin:text-3xl text-tailwind" />;
 
@@ -69,8 +69,8 @@ export {
     VuetifylIcon,
     SassIcon,
     HerokuIcon,
+    JestIcon,
     NpmIcon,
-    GulpIcon,
     PhotoshopIcon,
     FigmaIcon
 };

@@ -16,7 +16,7 @@ module.exports = {
                 firebase: "#F7C52E",
                 heroku: "#6762a6",
                 npm: "#cb3837",
-                gulp: "#DB4446",
+                jest: "#DB4446",
                 material: "#3f51b5",
                 background: "#F9FAFB"
                 // mongo: "#66AC3D"
