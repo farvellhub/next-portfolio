@@ -25,7 +25,7 @@ const AboutPage: NextPage = () => {
                     </a>
                 </div>
                 <img
-                    src="https://lh3.googleusercontent.com/rNN4o6xYJGC3mzCeY1Isyf1qGgHLUv7HGHx8rCF-uQaLfUlo8bTB9X8DbNyBMH7rpVokfKpiVX5x-SAiVVEaY1BNKCPltDNmO7QkU6tAPDoKMe9EdPfVG4RXHrsWBDvVI4LVJ6n9RCfqSd-Xpw58uNDgg6BzjkoGrGbc94QcUZHzDv0pIPn9mwZUyeP--j9Yi11ZZO0Wpgkf1miaDeHeW-gIqLFM6aFoc99dP75m2oH84aODMsMU_00FXJMzcKZM9fvwqXgdrUY3-LM9p3XS3rvd9NvbWtnK5l6_kOZCwfv4IFfgMMDIW1FJSCgBuSiNp-mddOOtOwLig3UTTPWgLfGpTNGZdZIAtIGkDrcFSW6ixnsxxEBiBTB-1e0MnjHRyjEStrxdA-cLP6q1gHvbTuweROkSGnFrYAxCUt1h-em5xiQQHXx47EzkAZ6KPXRN0iHrNTBdpHCiMTkoahY-JRrGK987E3BvYrnOpsR_PNCN3ZtlrSIPkicgDbc22SFM0OzwzhPCyWNrD0Ubr3hB7EsX5XZmLEMKx3G7nZHT0EexPd7BpzhqZi267aU9UM70DFyHMt37RntbtD61CiUuIZmvT4nXTotRMUmWD4AuroEcRMDi8rQZDuIyhilOnCJmNJ-ACtqKLhM2CT9ZBfm5h1I452OjkVWwPQh1UxkHF0i36JAqkjy-qST5vgjKiv6VAU4l1SlV9t08UlUwgZ9BVzY=w758-h943-no?authuser=0"
+                    src="https://i.imgur.com/FspiF4j.jpg"
                     className="w-full pt-12 menuMin:w-1/3 menuMin:pt-0"
                 />
             </div>
