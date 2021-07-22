@@ -6,7 +6,7 @@ const AboutPage: NextPage = () => {
         <>
             <div className="w-full flex justify-items-center items-center flex-wrap">
                 <div className="w-full menuMin:w-2/3">
-                    <h1 className="text-6xl pb-2 uppercase font-bold menuMin:text-9xl">
+                    <h1 className="text-6xl pb-12 uppercase font-bold menuMin:text-9xl">
                         About <span className="text-typescript">me</span>.
                     </h1>
                     <p className="text-xl text-whippy menuMin:pr-4">
