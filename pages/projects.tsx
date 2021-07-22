@@ -2,28 +2,7 @@ import { NextPage } from "next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 
-import {
-    FaReact,
-    FaNodeJs,
-    FaHtml5,
-    FaNpm,
-    FaTrophy,
-    FaVuejs,
-    FaSass
-} from "react-icons/fa";
-
-import {
-    SiRedux,
-    SiTailwindcss,
-    SiNextDotJs,
-    SiJavascript,
-    SiTypescript,
-    SiWebgl,
-    SiVuetify,
-    SiWebpack,
-    SiHeroku
-} from "react-icons/si";
-
+import { FaTrophy } from "react-icons/fa";
 import { IoIosTime } from "react-icons/io";
 
 import {
@@ -31,23 +10,11 @@ import {
     HorizontalCard
 } from "../components";
 
-//border-b-2 border-yikyak
+import * as Icons from "../components/Icons";
+
+
 const Projects: NextPage = () => {
-    const Webpack = <SiWebpack className="text-4xl text-tailwind" />;
-    const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
-    const ReactIcon = <FaReact className="text-4xl text-react" />;
-    const NodeIcon = <FaNodeJs className="text-4xl text-node" />;
-    const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
-    const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
-    const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
-    const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
-    const TypescriptIcon = <SiTypescript className="text-3xl text-typescript" />;
-    const WebGlIcon = <SiWebgl className="text-3xl text-black" />;
-    const VueJslIcon = <FaVuejs className="text-3xl text-vuejs" />;
-    const VuetifylIcon = <SiVuetify className="text-3xl text-css" />;
-    const SassIcon = <FaSass className="text-3xl text-sass" />;
-    const HerokuIcon = <SiHeroku className="text-3xl text-heroku" />;
-    const NpmIcon = <FaNpm className="text-3xl text-npm" />;
+    
 
     const projects = [
         {
@@ -55,7 +22,7 @@ const Projects: NextPage = () => {
             info:
                 "Personal discord bot for listen music, fun and moderation purposes. Youtube search, Imgur gifs and Reddit posts.",
             imgSrc: "https://discord.com/assets/ef555bf639a11bd65ae3065263788bba.png",
-            icons: [ JavascriptIcon, NodeIcon, HerokuIcon ],
+            icons: [ Icons.JavascriptIcon, Icons.NodeIcon, Icons.HerokuIcon ],
             code: "https://github.com/farvellhub/farvell-bot",
             demo: "https://discord.com/api/oauth2/authorize?client_id=822634934690250762&permissions=0&scope=bot",
         },
@@ -64,7 +31,7 @@ const Projects: NextPage = () => {
             info:
                 "Npm package for animation, rendering and styling elements on plain html.",
             imgSrc: "https://cdn.hashnode.com/res/hashnode/image/upload/v1604287956651/Jfvb2GjLZ.jpeg",
-            icons: [ TypescriptIcon, NodeIcon, NpmIcon ],
+            icons: [ Icons.TypescriptIcon, Icons.NodeIcon, Icons.NpmIcon ],
             code: "https://github.com/farvellhub/jflow-core",
             demo: "https://www.npmjs.com/package/@farvell/jflow-core",
         },
@@ -73,7 +40,7 @@ const Projects: NextPage = () => {
             info:
                 "Landing page for modern carpentry website. Parallax effect, full responsive design.",
             imgSrc: "https://i.imgur.com/ZKddg29.png",
-            icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
+            icons: [ Icons.HTMLIcon, Icons.JavascriptIcon, Icons.SassIcon, Icons.WebpackIcon ],
             code: "https://github.com/farvellhub/serradora",
             demo: "https://kikoterrasa.github.io",
         },
@@ -82,7 +49,7 @@ const Projects: NextPage = () => {
             info:
                 "Template conceptually made for a design studio. Lightbox showcase and responsivness.",
             imgSrc: "https://i.imgur.com/Hw6gzZ5.png",
-            icons: [ HTMLIcon, JavascriptIcon, SassIcon, Webpack ],
+            icons: [ Icons.HTMLIcon, Icons.JavascriptIcon, Icons.SassIcon, Icons.WebpackIcon ],
             code: "https://github.com/farvellhub/nstudio",
             demo: "https://farvellhub.github.io",
         }
@@ -114,7 +81,7 @@ const Projects: NextPage = () => {
                     info={
                         "D-Safe is a discord bot created for online security, anti-spam and moderation purposes."
                     }
-                    icons={[ NextJsIcon, ReactIcon, ReduxIcon, TailwindIcon, TypescriptIcon ]}
+                    icons={[ Icons.NextJsIcon, Icons.ReactIcon, Icons.ReduxIcon, Icons.TailwindIcon, Icons.TypescriptIcon ]}
                     color="#7289DA"
                     logoUrl="https://d33wubrfki0l68.cloudfront.net/747415793f4f58c0e000453dc0d08d250eaaa9d7/e68f2/assets/svg/logo.svg"
                     site="https://discordsafe.com"
@@ -123,7 +90,7 @@ const Projects: NextPage = () => {
                     imgSrc="https://i.imgur.com/HrYttmM.png"
                     title={"DDD Viewer"}
                     info="3D viewer for OpenStreet maps."
-                    icons={[ VueJslIcon, VuetifylIcon, TypescriptIcon, WebGlIcon ]}
+                    icons={[ Icons.VueJslIcon, Icons.VuetifylIcon, Icons.TypescriptIcon, Icons.WebGlIcon ]}
                     color="#473D54"
                     logoUrl="https://i.imgur.com/mNAWRfY.png"
                     site="https://3dsmaps.com/maps/@42.2308346,-8.7278964,9.0z"

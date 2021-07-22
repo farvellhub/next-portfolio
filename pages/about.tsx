@@ -10,7 +10,7 @@ const AboutPage: NextPage = () => {
                         About <span className="text-typescript">me</span>.
                     </h1>
                     <p className="text-xl text-whippy menuMin:pr-4">
-                        My name is Adri&aacute;n Terrassa, and I&apos;m an apassionate for frontend development. I started to learn since 2015 self-taught, and since then i keep learning and renewing myself. 
+                        My name is Adri&aacute;n Terrassa, and I&apos;m an apassionate for frontend development. I started to learn since 2015 self-taught, and since then I keep learning and renewing myself. 
                     </p>
                     <br />
                     <p className="text-xl pb-12 text-whippy menuMin:pr-4">
