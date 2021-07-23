@@ -1,6 +1,9 @@
 import { NextPage } from "next";
 
-import { SkillCard } from "../components";
+import {
+    SkillCard,
+    MainTitle
+} from "../components";
 
 import {
     PhotoshopIcon,
@@ -49,9 +52,7 @@ const SkillsPage: NextPage = () => {
     return (
         <>
             <div className="w-full flex justify-items-center items-center flex-wrap">
-                <h2 className="w-full text-whippy pb-2 uppercase text-6xl menuMin:text-9xl font-bold">
-                    My <span className="text-typescript">Skills</span>.
-                </h2>
+                <MainTitle normal="My" colored="Skills" />
                 <div className="w-full flex justify-items-center items-start flex-wrap">
                     {sectionSkills.map(( section ) => (
                         <SkillCard

@@ -9,7 +9,7 @@ import { BsLightningFill } from "react-icons/bs";
 
 const Footer = (): JSX.Element => {
     return (
-        <div className="mt-16 mb-10  uppercase tracking-widest text-right text-whippy flex justify-between flex-wrap">
+        <div className="mt-16 mb-10 uppercase tracking-widest text-right text-whippy flex justify-between flex-wrap">
             <div className="flex">
                 Built with
                 <div className="flex ml-2 mt-1">
@@ -26,7 +26,8 @@ const Footer = (): JSX.Element => {
                     href="https://github.com/farvellhub/next-portfolio"
                     className="hover:text-css"
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                >
                     {" "}
                     Farvell
                 </a>

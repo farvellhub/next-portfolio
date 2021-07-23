@@ -11,7 +11,7 @@ const IndexPage: NextPage = () => {
                     Hi visitor!
                 </h1>
                 <p className="text-xl w-full pb-2 text-whippy menuMin:text-2xl">
-                    I&apos;m <span className="text-yellow-600">javascript</span> and <span className="text-blue-600">typescript</span> developer focused on website design and frontend development.
+                    I&apos;m <span className="text-yellow-600">javascript</span> and <span className="text-typescript">typescript</span> developer focused on website design and frontend development.
                 </p>
                
                 <p className="text-xl w-full pb-16 menuMin:text-2xl">Below you can see some of my projects.</p>

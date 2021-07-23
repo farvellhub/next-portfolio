@@ -1,5 +1,8 @@
-import { AppProps } from "next/app";
-import Head from "next/head";
+import type { AppProps } from "next/app";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+
+import NProgress from "nprogress";
 import CookieConsent from "react-cookie-consent";
 
 import { Menu, Footer } from "../components/";
@@ -7,24 +10,35 @@ import { Menu, Footer } from "../components/";
 import "../styles/index.css";
 
 
-const MyApp = ({ Component, pageProps }: AppProps ): JSX.Element => {    
+const MyApp = ({ Component, pageProps }: AppProps ): JSX.Element => {
+    const router = useRouter();
+    
+    useEffect(() => {
+        const start = ( url : string ) => {
+            console.log( router.asPath );
+            console.log( url );
+            NProgress.start();
+        };
+
+        const stop = () =>   {
+            NProgress.done();
+        };
+
+        router.events.on( "routeChangeStart", start );
+        router.events.on( "routeChangeComplete", stop );
+        router.events.on( "routeChangeError", stop );
+        
+        return () => {
+            router.events.off( "routeChangeStart", start );
+            router.events.off( "routeChangeComplete", stop );
+            router.events.off( "routeChangeError", stop );
+        };
+    }, [ router ]);
+
+
     return (
         <>
-            <Head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146649922-1" />
-
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'UA-146649922-1');
-                        `
-                    }}
-                />
-            </Head>
-            <div className="flex justify-center bg-background ">
+            <div className="flex justify-center bg-background">
                 <div className={"bg-background  h-full min-h-screen max-w-7xl w-full"}>
                     <div className="mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between">
                         <Menu />
@@ -40,19 +54,19 @@ const MyApp = ({ Component, pageProps }: AppProps ): JSX.Element => {
                 cookieName="cookie"
                 style={{
                     background: "#222222",
-                    color: "#EEEEEE",
+                    color: "#F9FAFB",
                     padding: "0 2.75rem"
                 }}
                 buttonStyle={{
                     color: "#222222",
                     borderRadius: "3px",
-                    backgroundColor: "#E1D43B",
+                    backgroundColor: "#F1D43B",
                     fontSize: "13px",
-                    hoover: "#D0C32C"
+                    hoover: "#ece02f"
                 }}
                 expires={150}
             >
-  This website uses cookies to enhance the user experience.{" "}                
+                This website uses cookies to enhance the user experience.{" "}
             </CookieConsent>
         </>
     );

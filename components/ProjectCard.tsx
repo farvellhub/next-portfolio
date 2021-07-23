@@ -49,7 +49,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                             ))}
                         </div>
                         <div>
-                            <a className="text-blue-500 text-sm hover:text-css" href={site}>
+                            <a
+                                className="text-blue-500 text-sm hover:text-css"
+                                href={site}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 Visit Website
                             </a>
                         </div>
