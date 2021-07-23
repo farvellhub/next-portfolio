@@ -34,6 +34,14 @@ module.exports = {
             fontSize: {
                 "xl": "1.35rem",
                 "9xl": "9rem",
+            },
+            fontFamily: {
+                "logo": [
+                    "Raleway", "sans-serif"
+                ],
+                "title": [
+                    "Fira Sans", "sans-serif"
+                ]
             }
         },
     },

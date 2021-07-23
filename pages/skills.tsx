@@ -22,7 +22,7 @@ import {
     TailwindIcon,
     MaterialIcon,
     FigmaIcon
-} from "../components/Icons";
+} from "../shared/Icons";
 
 
 const SkillsPage: NextPage = () => {

@@ -33,7 +33,7 @@ const AboutPage: NextPage = () => {
                         </a>.
                     </p>
                     <a
-                        className="rounded-sm text-2xl bg-typescript py-3 px-8 mt-6 text-white hover:bg-css"
+                        className="rounded-sm text-2xl tracking-wider bg-typescript py-3 px-8 mt-6 text-white hover:bg-css"
                         href="https://drive.google.com/file/d/1U2n-8p2gZVH8n3JJQLwMcDKA41XWspOZ/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"

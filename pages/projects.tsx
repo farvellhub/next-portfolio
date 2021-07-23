@@ -26,7 +26,7 @@ import {
     TailwindIcon,
     VueJslIcon,
     VuetifylIcon
-} from "../components/Icons";
+} from "../shared/Icons";
 
 
 const Projects: NextPage = () => {
@@ -76,7 +76,7 @@ const Projects: NextPage = () => {
                 <FaTrophy className="text-xl mr-2" />
                 <p className="text-md menuMin:text-xl">Open Source Projects</p>
             </div>
-            <div className=" w-full grid  grid-cols-1 gap-10 mt-10">
+            <div className=" w-full grid grid-cols-1 gap-10 mt-10">
                 <ProjectCard
                     imgSrc="https://i.imgur.com/erjOZTD.png"
                     title={"Discord-Safe Bot"}
@@ -100,7 +100,7 @@ const Projects: NextPage = () => {
             </div>
             <div className="flex self-start items-center mt-10 uppercase tracking-widest">
                 <IoIosTime className="text-xl mr-2" />
-                <p className="text-md menuMin:text-xl">Previous Projects</p>
+                <p className="text-md menuMin:text-xl">Previous Personal Projects</p>
             </div>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
                 {projects?.map(( p ) => (
