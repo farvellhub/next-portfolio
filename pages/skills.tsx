@@ -51,7 +51,7 @@ const SkillsPage: NextPage = () => {
 
     return (
         <>
-            <div className="w-full flex justify-items-center items-center flex-wrap">
+            <div className="fade-out w-full flex justify-items-center items-center flex-wrap">
                 <MainTitle normal="My" colored="Skills" />
                 <div className="w-full flex justify-items-center items-start flex-wrap">
                     {sectionSkills.map(( section ) => (

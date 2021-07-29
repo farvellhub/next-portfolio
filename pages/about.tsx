@@ -6,7 +6,7 @@ import { MainTitle } from "../components/";
 const AboutPage: NextPage = () => {
     return (
         <>
-            <div className="w-full flex justify-items-center items-center flex-wrap">
+            <div className="fade-out w-full flex justify-items-center items-center flex-wrap">
                 <div className="w-full menuMin:w-2/3">
                     <MainTitle normal="about" colored="me" />
                     <p className="text-xl text-whippy menuMin:pr-4">

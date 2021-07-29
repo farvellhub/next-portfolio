@@ -6,7 +6,7 @@ import { Slideshow } from "../components/";
 const IndexPage: NextPage = () => {
     return (
         <>
-            <div className="w-full flex justify-items-center flex-wrap">
+            <div className="fade-out w-full flex justify-items-center flex-wrap">
                 <h1 className="text-6xl font-title w-full pb-2 uppercase font-bold bg-clip-text bg-gradient-to-br from-typescript to-pink-400 text-transparent menuMin:text-9xl">
                     Hi visitor!
                 </h1>

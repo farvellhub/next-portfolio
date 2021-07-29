@@ -70,7 +70,7 @@ const Projects: NextPage = () => {
         }
     ];
     return (
-        <div className="text-whippy flex flex-col items-center">
+        <div className="fade-out text-whippy flex flex-col items-center">
             <MainTitle normal="My" colored="Projects" />
             <div className="flex self-start items-center mt-6 uppercase tracking-widest">
                 <FaTrophy className="text-xl mr-2" />
