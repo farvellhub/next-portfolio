@@ -18,7 +18,6 @@ import {
 
 const MyApp = ({ Component, pageProps }: AppProps ): JSX.Element => {
     const loaded = useLoaded();
-
     useEventRouter();
 
     return (

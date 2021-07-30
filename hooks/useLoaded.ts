@@ -6,7 +6,7 @@ const useLoaded = (): boolean => {
     useEffect(() => {
         setTimeout(() => {
             setLoaded( true );
-        }, 3000 );
+        }, 2000 );
     }, []);
 
     return loaded;

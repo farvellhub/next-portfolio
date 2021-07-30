@@ -9,7 +9,6 @@
         "build": "next build",
         "export": "next export",
         "start": "next start -p $PORT",
-        "heroku-postbuild": "npm run build",
         "type-check": "tsc"
     },
     "dependencies": {
