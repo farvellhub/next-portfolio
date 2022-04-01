@@ -22,7 +22,8 @@ import {
     SiVuetify,
     SiWebpack,
     SiHeroku,
-    SiJest
+    SiJest,
+    SiMongodb
 } from "react-icons/si";
 
 import { FiFigma } from "react-icons/fi";
@@ -49,3 +50,4 @@ export const JestIcon = <SiJest className="text-2xl menuMin:text-3xl text-jest" 
 export const NpmIcon = <FaNpm className="text-2xl menuMin:text-3xl text-npm" />;
 export const FigmaIcon = <FiFigma className="text-2xl menuMin:text-3xl text-black" />;
 export const PhotoshopIcon = <SiAdobephotoshop className="text-2xl menuMin:text-3xl text-tailwind" />;
+export const MongoIcon = <SiMongodb classname="text-2xl menuMin:text-3xl text-mongo" />;

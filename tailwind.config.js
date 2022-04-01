@@ -18,8 +18,8 @@ module.exports = {
                 npm: "#cb3837",
                 jest: "#DB4446",
                 material: "#3f51b5",
-                background: "#F9FAFB"
-                // mongo: "#66AC3D"
+                background: "#F9FAFB",
+                mongo: "#66AC3D"
             },
             screens: {
                 xs: "320px",

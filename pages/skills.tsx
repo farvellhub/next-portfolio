@@ -21,7 +21,8 @@ import {
     NextJsIcon,
     TailwindIcon,
     MaterialIcon,
-    FigmaIcon
+    FigmaIcon,
+    MongoIcon
 } from "../shared/Icons";
 
 
@@ -35,7 +36,7 @@ const SkillsPage: NextPage = () => {
         {
             title: "Technologies",
             skills: [ "React", "Redux", "Next.js", "Material-UI", "TailwindCSS" ],
-            icons: [ ReactIcon, ReduxIcon, NextJsIcon, MaterialIcon, TailwindIcon ]
+            icons: [ ReactIcon, ReduxIcon, NextJsIcon, MaterialIcon, TailwindIcon, MongoIcon ]
         },
         {
             title: "Tooling",
