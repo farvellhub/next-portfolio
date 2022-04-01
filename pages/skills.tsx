@@ -35,7 +35,7 @@ const SkillsPage: NextPage = () => {
         },
         {
             title: "Technologies",
-            skills: [ "React", "Redux", "Next.js", "Material-UI", "TailwindCSS" ],
+            skills: [ "React", "Redux", "Next.js", "Material-UI", "TailwindCSS", "Mongo" ],
             icons: [ ReactIcon, ReduxIcon, NextJsIcon, MaterialIcon, TailwindIcon, MongoIcon ]
         },
         {
