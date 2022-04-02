@@ -37,7 +37,7 @@ const AboutPage: NextPage = () => {
           </p>
           <a
             className="rounded-sm text-2xl tracking-wider bg-typescript py-3 px-8 mt-6 text-white hover:bg-css"
-            href="https://drive.google.com/file/d/1U2n-8p2gZVH8n3JJQLwMcDKA41XWspOZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CmvyRM_3XVbORsQ4qVwkipLrjyOy06-T/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
           >
