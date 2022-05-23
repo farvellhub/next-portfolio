@@ -9,7 +9,7 @@ const AboutPage: NextPage = () => {
         <div className="w-full menuMin:w-2/3">
           <MainTitle normal="about" colored="me" />
           <p className="text-xl text-whippy menuMin:pr-4">
-            My name is Adri&aacute;n Terrassa, and I&apos;m an apassionate for
+            My name is Adri&aacute;n Terrassa, and I&apos;m a passionate for
             frontend development. I started to learn since 2015 self-taught, and
             since then I keep learning and renewing myself.
           </p>
