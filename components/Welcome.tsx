@@ -1,5 +1,3 @@
-import React from "react";
-
 const Welcome = (): JSX.Element => {
     return (
         <div className="fade-out w-full h-screen flex justify-center items-center bg-typescript">

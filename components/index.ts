@@ -1,4 +1,4 @@
-import Menu from "./Navbar";
+import Menu from "./Menu";
 import Footer from "./Footer";
 import MainTitle from "./MainTitle";
 import ProjectCard from "./ProjectCard";
