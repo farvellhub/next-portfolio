@@ -12,9 +12,9 @@
         "type-check": "tsc"
     },
     "dependencies": {
-        "next": "10.2.3",
+        "next": "latest",
         "nprogress": "0.2.0",
-        "react": "16.12.0",
+        "react": "latest",
         "react-cookie-consent": "6.2.4",
         "react-dom": "16.12.0",
         "react-github-calendar": "2.0.1",
