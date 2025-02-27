@@ -1,11 +1,10 @@
 import SkillCardProps from "../types/SkillCardProps";
 
-
 const SkillCard: React.FC<SkillCardProps> = ({
     title, 
     skills,
     icons
-}: SkillCardProps ): JSX.Element => {
+}: SkillCardProps ) => {
     return (
         <>
             <div className="flex flex-wrap justify-center w-full menuMin:justify-start menuMin:w-1/4 sm:w-1/2">

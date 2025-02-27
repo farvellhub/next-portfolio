@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 type ProjectCardProps = {
     title: string;
     info: string;

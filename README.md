@@ -1,50 +1,36 @@
-<h1 align="center">Welcome to my personal portfolio👋</h1>
-<p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
-  </a>
-  <a href="https://discord.gg/tpNtcJHw" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-</p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> My personal portfolio deployed on vercel.
+## Getting Started
 
-## Installation
+First, run the development server:
 
-- npm install
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Where to start.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- npm run dev - to run development build.
-- npm run build - to run development build 
-- npm run export - for production environment.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Directories
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-· /public/: Public files.
+## Learn More
 
-· /pages/: Next routes.
+To learn more about Next.js, take a look at the following resources:
 
-· /components/: React components.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-· /styles: Tailwind css imports.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Characteristics.
+## Deploy on Vercel
 
-· Next.js / React.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-· TailwindCSS.
-
-· Typescript.
-
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## Questions?
-
-If you have any questions, please feel free to contact me on discord Farvell⚡#3387.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
